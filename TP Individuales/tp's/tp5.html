@@ -1,0 +1,27 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<script type="text/javascript">
+	/*
+	function imprimirImpares(n){
+		if(n % 2 != 0){
+			console.log(n);
+		}
+	}
+     */
+     var num = ['a','b','c','d','e','f','g','h','i','j'];
+	function buscarImpares(n){
+		var res = [];
+		function porCadaUno(elem, i){
+			if(i % 2 == 1){
+			res.push(elem);
+			}
+		}
+		n.forEach(porCadaUno);
+		return res;
+	}
+	</script>
+</body>
+</html>

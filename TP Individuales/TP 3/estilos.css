@@ -1,0 +1,40 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	border:1px solid black;
+	height: 640px;
+	min-width: 2000px;
+}
+#chat{
+	color:black;
+	height: 200px;
+	width: 125px;
+	background: white;
+	margin-left: 25px;
+	margin-top: 150px;
+}
+nav{
+	color:white;
+	text-align: center;
+	float:left;
+	height: 100%;
+	width: 175px;
+	background: blue;
+	border:1px solid black;
+}
+#contenedor{
+	margin-top: 120px;
+	margin-left: 100px;
+	height: 300px;
+	border:2px solid green;
+}
+section{
+	float: left;
+	height: 100%;
+	width: 400px;
+	border:2px solid green;
+	position: relative;
+	min-width: 200px;
+}

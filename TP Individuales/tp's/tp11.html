@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<script type="text/javascript">
+var arr = [5, 10, 20, 4, 80, 2];
+
+function r(arr) {
+    if (arr.length === 0) {
+        return 0;
+    }
+    if (arr[arr.length - 1] > 10) {
+    	arr.pop();
+        return 1 + r(arr);
+    } else {
+    	arr.pop();
+        return 0 + r(arr);
+    }
+}
+console.log(r(arr));
+</script>
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title></title>
+</head>
+
+<body>
+
+<script type="text/javascript">
+	var usuario1 = {
+		nombre:"Pedro Perez", 
+		email: "pp@gmail.com", 
+		edad: 45,
+		direccion: "Libertador 1504"
+	};
+
+	var usuario2 = {
+		nombre:"Eugenio Rismondo",
+		email:"er@gmail.com", 
+		edad: 19, 
+		direccion:"9 de julio 3550"
+	};
+
+	var usuario3 = {
+		nombre:"Gabriel Eustacio",
+		email:"gabi@gmail.com",
+		edad:21,
+		direccion:"cochabamba 410"
+	};
+
+	var filtro = {
+		edad:33
+	};
+
+	var users = [usuario1, usuario2, usuario3];
+	
+	var resultado = [];
+
+	for(var i = 0; i < users.length; i++){
+		filtrarUsuarios(users, filtro);
+	}
+	
+	function filtrarUsuarios(users, filtro){	
+		for(var i = 0; i < users.length; i++){
+			if(users[i].edad <= filtro.edad){
+				resultado.push(users[i]);
+			}
+		}
+		return resultado;
+	}
+</script>
+
+</body>
+</html>

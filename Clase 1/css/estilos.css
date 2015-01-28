@@ -1,0 +1,152 @@
+*{
+	margin:0;
+	padding: 0;
+	font-style: Trebuchet;
+}
+html{
+	background-color:#F1F2F9;
+	height: 100%;
+}
+body{
+	background-color:white;
+	font-style:Times;
+	width:100%;
+	margin-right: 10%;
+	margin-left: 10%;
+}
+footer{
+	background: black;
+	position: relative;
+	left: 0px;
+	bottom:0%;
+	width: 80%;
+	height: 250px;
+}
+footer > div{
+	display: inline-block;
+	position: relative;
+}
+section > .main{
+	width: 80%;
+	margin-right:0px;
+}
+header{
+	background-color:#eee;
+	border-radius: 5px 5px 5px 5px;
+	height:80px;
+	width: 100%;
+}
+
+header > nav > #t > h1{
+	text-decoration: bold;
+	float:left;
+}
+section{
+	width: 80%;
+	position:relative;
+}
+section > .main > #i > img {
+	height:500px;
+	width: 100%;
+}
+form{
+	margin-left:600px;
+}
+#d{
+	display: inline-block;
+	float:right;
+	padding:40px 90px;
+}
+#d > a{
+	height:60px;
+	width:60px;
+	background: blue;
+}
+#titulos{
+	height: 100px;
+	width:30%; 
+}
+#icon{
+	position:;
+}
+#social > *{
+	text-align: left;
+	height: 60px;
+	width: 300px;
+	margin-top: -2px;
+}
+#touch > *{
+	text-align:left;
+	margin-top: -2px;
+	float:right;
+}
+#nombre{
+	height:30px ;
+	width:280px ;
+	border-radius:5px ;
+}
+#mail{
+	height:30px ;
+	width:280px ;
+	border-radius:5px;
+}
+#mensaje{
+	margin-top:0px ;
+	width:300px;
+	height:100px;
+	border-radius: 2px;
+}
+#enviar{
+	font-size:1em ;
+	color:white;
+	text-decoration: bold;
+	margin-top:5px ;
+	margin-left:0px;
+	background-color: #f00011;
+	height:40px;
+	width:150px;
+	border-radius:5px 5px 5px 5px;
+	box-shadow: 5px 5px 5px #444;
+}
+#f{
+	clear:both;
+	width: 348px;
+	height: 200px;
+	color:white;
+}
+#us{
+	float:left;
+	height: 200px;
+	width: 348px;
+	color:white;
+}
+#info{
+	height: 200px;
+	width: 348px;
+	color: white;
+}
+#c{
+	text-decoration:none ;
+	color: white;
+	display: inline-block;
+	float:right;
+	background: #262626;
+	width: 50%;
+	border-top:1px solid dimgray;
+	height: 5%;
+}
+#cr{
+	width: 50%;
+	background: #262626;
+	text-decoration: none;
+	color: white;
+	text-align: left;
+	display:inline-block;
+	list-style: none;
+	float:left;
+	border-top:1px solid dimgray;
+	height: 5%;
+}
+#c > a{
+	font-variant: normal;
+}

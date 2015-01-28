@@ -1,0 +1,168 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	text-align: justify;
+	font-family: monospace;
+	box-sizing: border-box;
+}
+/* achicamos y ajustamos el body */
+html{
+	background:#F1F2F9;
+}
+body{
+	margin-left: 10%;
+	margin-right: 10%;
+	background:white;	
+}
+/* ajustamos el nav y la cabecera */
+nav{
+	padding-left: 5%;
+	padding-right: 5%;
+	background: #EDE6E9;
+	height: 25px;
+	top:0%;
+}
+header > nav > h1, a{
+	float: right;
+	margin-right: 5px;
+}
+header > #d > h1{
+	float:left;
+	margin-top: 1%;
+	margin-left: 1%;
+	font-size: 35px;
+	font-style: normal;
+}
+header > #d > h1 > span{
+	text-decoration:
+}
+header > #d > a{
+	float:right;
+	text-decoration: none;
+	text-align: center;
+	color:black;
+	margin-top: 2%;
+	position:relative;
+	margin-bottom: 2%;
+	width: 60px;
+	height: 25px;
+}
+header > nav > a > img{
+	height: 25px;
+	width: 25px;
+	float:right;
+	margin-top: 0%;
+}
+/* ajustamos la imagen */
+section > .main > #i > img{
+	width: 100%;
+	height: 500px;
+}
+/* Pasamos al section / main */
+#titulos{
+	float:left;
+	margin-left: 5%;
+}
+#titulos > h1{
+	text-align: center;
+	margin-top: 10%;
+}
+#titulos > a{
+	margin-top:10%;
+}
+#titulos > a > img{
+	width: 30px;
+	height:30px;
+}
+/* Pasamos al formulario */
+form{
+	text-align: left;
+	position: relative;
+	margin-top: 2%;
+	margin-right: 10%;
+	float:right;
+	width: 400px;
+	height: 200px;
+}
+form > #touch{
+	margin-bottom: 2%;
+}
+form > input[type="text"]{
+	background: #E5E5E5;
+	height: 25px;
+	width: 400px;
+	border-radius: 5px 5px 5px 5px;
+	padding-bottom: 5px;
+}
+form > #enviar{
+	box-shadow: 1px 1px 1px black;
+	border-radius: 5px 5px 5px 5px;
+	background: #DA2B82;
+	padding-left: 4%;
+	margin-top: 1%;
+	height: 35px;
+	width: 120px;
+}
+/* Por ultimo el footer */
+footer{
+	position: static;
+	margin-top: 10%;
+	margin-bottom: 0%;
+	display: inline-block;
+	width: 100%;
+	height: 20%;
+	background: #1E1E1E;
+	color: white;
+}
+footer > div{
+	display: inline-block;
+}
+footer > div > h1{
+	font-size: 16px;
+}
+footer > #us{
+	position: relative;
+	text-align: right;
+	margin-left: 10%;
+	margin-top: 5%;
+	height: 200px;
+	width: 200px;
+}
+footer > #f{
+	position: relative;
+	text-align: left;
+	height: 200px;
+	width: 200px;
+	margin-bottom: 2%;
+}
+footer > #info{
+	position: relative;
+	height: 200px;
+	width: 200px;
+	margin-right: 10%;
+	text-align: right;
+}
+footer > #info > img{
+	margin-top: 2%;
+	display: inline-block;
+	clear:both;
+	width: 25px;
+	height: 25px;
+}
+footer > #cr{
+	position: static;
+	display: inline-block;
+	margin-bottom: 0%;
+	background: #2E2E2E;
+	width: 100%;
+	height: 25px;
+}
+footer > #cr > p{
+	margin-bottom: 0%;
+	float: left;
+}
+footer > #cr > a{
+	margin-bottom: 0%;
+	float: right;
+}
+

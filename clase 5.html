@@ -1,0 +1,23 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<script type="text/javascript">
+	var n = "nombre";
+	function contar (n){
+		var contadorVocales = 0;
+		var noVocales = 0;
+		for(var i=0; i <= n.length; i++){
+			if(n[i] === "a" || n[i] === "e" || n[i] === "i" || n[i] === "o" || n[i] === "u"){
+				contadorVocales++;
+			} else {
+				noVocales = n.length - contadorVocales;
+			}
+		}
+		console.log ("tiene "+contadorVocales+" vocales");
+		console.log("y "+noVocales+" consonantes");
+	}
+	</script>
+</body>
+</html>

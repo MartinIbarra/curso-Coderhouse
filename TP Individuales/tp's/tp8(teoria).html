@@ -1,0 +1,29 @@
+//definir variable resultado ([])
+//recorrer arr, mientras recorro el array
+//si el usuario -algo- entonces agrego usuario al resultado (push)
+//function corresponde
+var filtro = {
+	edad:33
+};
+var users = [
+	{
+		nombre:”Pedro Perez”,
+		email: “pp@gmail.com”,
+		edad: 45,
+		direccion: “Libertador 1504”
+	},
+	{
+		nombre:”Eugenio Rismondo”,
+		email:”er@gmail.com”,
+		edad: 19,
+		direccion:”9 de julio 3550”
+	}
+];
+users.forEach(filtrarUsuarios());
+function filtrarUsuarios(users, filtro){
+	var resultado = [];
+	if(users.edad === fltro.edad){
+		resultado.push(users);
+	}
+	return resultado;
+}

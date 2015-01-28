@@ -1,0 +1,35 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<script type="text/javascript">
+	var arr1 = ["a", "b", "c"];
+	var arr2 = ["d", "e", "f"];
+	
+	function invertirYConcatenarArrays(arr1, arr2){
+		var arr1Invertido = invertir(arr1);
+		var arr2Invertido = invertir(arr2);
+		var resultado = concatenar(arr1Invertido,arr2Invertido);
+		return resultado;
+	}
+	function invertir(a){
+		var resultado = [];
+			for(var i=0; i<a.length; i++){
+				resultado.push(a[a.length - 1 - i]);
+			}
+		return resultado;
+	}
+	function concatenar(a, v){
+		var resultado = [];
+		for(var i=0; i<a.length; i++){
+			resultado.push(a[i]);
+		}
+		for(var j=0; j<v.length; j++){
+			resultado.push(v[j]);
+		}
+		return resultado;
+	}
+	</script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<script type="text/javascript">
+	var arr = [[1,1,1],[1,1,1],[1,1,1]];
+	
+    //recorrer elementos de arr
+    function sumaTotal(arr){
+    	var resultado = 0,
+    		elemArr,
+    		elemInterno;
+    	for(var i = 0; i<arr.length; i++){
+    		elemArr = arr[i];
+    			for(var n = 0; n<elemArr.length; n++){
+    				elemInterno = elemArr[n];
+    				if(typeof elemInterno === 'number'){
+                		resultado = resultado + elemInterno;
+            		}
+    			}
+    	}
+    	return resultado;
+    }
+</script>
+</body>
+</html>

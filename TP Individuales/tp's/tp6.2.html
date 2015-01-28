@@ -1,0 +1,29 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<script type="text/javascript">
+	var arr = [[30,65,82],[4,7,9],[10,27,38]];
+	
+	function sumaTotal(arr) {
+    var resultado = 0;
+
+    //recorrer elementos de arr
+
+    arr.forEach(function(elemArr){
+        //recorro los elementos de cada elem
+        elemArr.forEach(function(elemInterno){
+            if(typeof elemInterno === 'number'){
+                resultado = resultado + elemInterno;
+            } else {
+                // es un string u objecto o function
+            }
+        });
+    });
+
+    return resultado;
+}
+</script>
+</body>
+</html>

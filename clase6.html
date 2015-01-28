@@ -1,0 +1,19 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<script type="text/javascript">
+	var obj = {
+		a:false,
+		b:false,
+		c:false
+	};
+	var keys = Object.keys(obj);
+	for(var i = 0; i < keys.length; i++){
+		obj[keys[i]] = true;
+	}
+	console.log(obj);
+	</script>
+</body>
+</html>
